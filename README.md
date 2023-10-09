@@ -2,6 +2,12 @@
 
 ## Development
 
+To install packages run:
+
+```bash
+bun install
+```
+
 To start the development server run:
 
 ```bash
