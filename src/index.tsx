@@ -73,8 +73,8 @@ const MovieItem = ({ title, director, id }: Movie) => {
           <button
             type="button"
             hx-delete={`/movies/${id}`}
-            hx-swap="outerHTML"
             hx-target="closest li"
+            hx-swap="outerHTML"
             class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-transparent bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
           >
             <span class="sr-only">Delete movie</span>
