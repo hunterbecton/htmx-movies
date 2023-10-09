@@ -2,6 +2,8 @@
 
 ## Development
 
+Follow this [link](https://bun.sh/docs/installation) to install bun on your computer.
+
 To install packages run:
 
 ```bash
